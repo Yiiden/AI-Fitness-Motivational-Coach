@@ -1,0 +1,29 @@
+# macOS 系統產生檔案
+.DS_Store
+
+# Python 虛擬環境與快取
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# 深度學習模型權重與暫存檔 (預設全部忽略，避免 Git Push 超過 100MB 限制)
+*.pth
+*.onnx
+*.onnx.data
+*.nef
+*.bie
+
+# --- 例外開放清單 (必備的小型視覺模型) ---
+!blazeface.nef
+!pfld.nef
+!blazeface_pfld.nef
+# ---------------------------------------------
+
+# 模型轉檔與編譯過程的輸出資料夾
+output/
+blazeface_output/
+pfld_output/
+combo_nef/
+combined_models/
