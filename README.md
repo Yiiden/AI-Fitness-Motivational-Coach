@@ -164,6 +164,8 @@ python combo_realtime_Step2.py --src /dev/video0
 (請根據您的 Webcam 裝置編號更改 `--src` 參數)
 4. **關閉系統**：在顯示影像的視窗上點擊並按下鍵盤的 `q` 鍵，即可安全關閉主程式與攝影機連線。
 
+https://github.com/user-attachments/assets/4ffbd1d7-3d07-48f1-a0f6-cf84a3637276
+
 ### 互動體驗說明 (20 秒動態循環)
 程式啟動後，畫面上會顯示即時的系統狀態，請依照以下 20 秒的節奏進行體驗：
 * **前 10 秒（取樣階段 Phase: SAMPLING）**
